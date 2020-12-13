@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="JavaFXApp">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaFXApp</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="net.rebeyond.behinder.ui.Launcher" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="JavaFXApp.jar">
+        <element id="module-output" name="BehinderMod" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$USER_HOME$/kz_s3c/Behinder_v3.0_Beta_6_mac/Behinder_v3.0_Beta6_mac/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="library" level="project" name="annotations-api" />
+      <element id="library" level="project" name="Behinder_v3.0_Beta6_mac" />
+    </root>
+  </artifact>
+</component>
